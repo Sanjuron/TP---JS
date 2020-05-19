@@ -26,9 +26,12 @@ console.log(randFacts());
 function randColor(){
     let color = '#'+Math.random().toString(16).substr(-6);
     ; // génère couleur aléatoire.
+    let body = document.getElementById("body");
+    let button = document.getElementById("button");
+    let quote = document.getElementById("quote");
     body.style.backgroundColor = color;
     button.style.backgroundColor = color;
-    p.style.color = color;
+    quote.style.color = color;
 
 } // ça ne marche pas
 
