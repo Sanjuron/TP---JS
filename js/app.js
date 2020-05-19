@@ -23,9 +23,18 @@ function randFacts(){
 
 console.log(randFacts());
 
-let button = document.getElementById("button"); 
-button.addEventListener("click", randFacts); // ! ne surtout pas oublier les parenthèses autour de click! Et ne pas en mettre après la fonction!!
-
 function randColor(){
-    
-}
+    let color = '#'+Math.random().toString(16).substr(-6);
+    ; // génère couleur aléatoire.
+    body.style.backgroundColor = color;
+    button.style.backgroundColor = color;
+    p.style.color = color;
+
+} // ça ne marche pas
+
+let button = document.getElementById("button"); 
+button.addEventListener("click", randFacts, randColor); // ! ne surtout pas oublier les parenthèses autour de click! Et ne pas en mettre après la fonction!!
+
+
+
+
