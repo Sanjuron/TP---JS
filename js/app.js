@@ -18,26 +18,33 @@ console.log(norrisFacts);
 
 function randFacts(){
     let rand = Math.floor(Math.random() * norrisFacts.length) // génère nombre aléatoire qui prend l'entièreté du tableau
-    document.getElementById("quote").innerHTML = norrisFacts[rand]; // assigne les citations aléatoires dans p
-}
-
-console.log(randFacts());
-
-function randColor(){
-    let color = '#'+Math.random().toString(16).substr(-6);
-    ; // génère couleur aléatoire.
+    document.getElementById("quote").innerHTML = norrisFacts[rand];
+    let color = getRandomColor();
+    // génère couleur aléatoire.
     let body = document.getElementById("body");
     let button = document.getElementById("button");
     let quote = document.getElementById("quote");
     body.style.backgroundColor = color;
     button.style.backgroundColor = color;
     quote.style.color = color;
+    // associe body, quote et button à la couleur aléatoire
+}
 
-} // ça ne marche pas
+console.log(randFacts());
+
+function getRandomColor() {
+    let letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 11)];
+    }
+    return color;
+  } // fonction qui génère une couleur aléatoire
+
+
 
 let button = document.getElementById("button"); 
-button.addEventListener("click", randFacts, randColor); // ! ne surtout pas oublier les parenthèses autour de click! Et ne pas en mettre après la fonction!!
-
+button.addEventListener("click", randFacts); // ! ne surtout pas oublier les parenthèses autour de click! Et ne pas en mettre après la fonction!!
 
 
 
