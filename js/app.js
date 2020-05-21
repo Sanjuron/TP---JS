@@ -12,6 +12,21 @@ let norrisFacts = [
     "Chuck Norris fait pleurer les oignons.",
     "Chuck Norris peut diviser par zéro.",
     "Chuck Norris comprend Jean-Claude Van Damme.",
+    "Chuck Norris joue à la roulette russe avec un chargeur plein.",
+    "Chuck Norris sait parler le braille.",
+    "Chuck Norris a un jour avalé un paquet entier de somnifères. Il a cligné des yeux.",
+    "Quand Google ne trouve pas quelque chose, il demande à Chuck Norris.",
+    "Les suisses ne sont pas neutres, ils attendent de savoir de quel coté Chuck Norris se situe.",
+    "Il n'y a pas de théorie de l'évolution. Juste une liste d'espèces que Chuck Norris autorise à survivre.",
+    "Chuck Norris peut encercler ses ennemis. Tout seul.",
+    "Chuck Norris est la raison pour laquelle Charlie se cache.",
+    "Chuck Norris a déjà été sur Mars, c'est pour cela qu'il n'y a pas de signes de vie là bas.",
+    "Chuck Norris connait la dernière décimale de Pi.",
+    "Si Chuck Norris avait été pris dans le film '300' il l'aurait renommé en '1'.",
+    "Chuck Norris est contre les radars automatiques : ça l'éblouit lorsqu'il fait du vélo.",
+    "Chuck Norris n'utilise pas de suppositoire. Les voies du seigneur sont impénétrables.",
+    "Chuck Norris peut t'étrangler avec un téléphone sans fil.",
+    "Chuck Norris est mort depuis 10 ans, mais la Mort n'a pas encore trouvé le courage d'aller lui dire.",
 ];
 
 console.log(norrisFacts);
