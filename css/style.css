@@ -31,10 +31,11 @@ body{
 
 #button{
     position: relative;
-    left: 400px;
+    left: 370px;
     bottom: -40px;
     color : white;
-    height: 30px;
+    height: 35px;
+    width: 90px;
     border-radius: 2px;
     border-style: none;
 }
