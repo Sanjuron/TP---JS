@@ -1,20 +1,40 @@
 .category{
-    border: 1px solid black;
-    margin : 0 auto;
+    margin : 200px auto;
     width: 500px;
-    height: 200px;
+    height: 230px;
     background-color: whitesmoke;
+    border-radius: 2px;
+    position: relative;
 }
 
 #quote{
     text-align: center;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    height: 40px;
+    position: relative;
+    bottom: -30px;
 }
 
 body{
     background-color: slateblue;
 }
 
-.CN{
+#CN{
     text-align: right;
+    margin-right: 30px;
+    font-family: 'Lato', sans-serif;
+    position: relative;    
+    bottom: -30px;
 }
 
+#button{
+    position: relative;
+    left: 400px;
+    bottom: -40px;
+    color : white;
+    height: 30px;
+    border-radius: 2px;
+    border-style: none;
+}

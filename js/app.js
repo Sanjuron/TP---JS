@@ -24,6 +24,8 @@ function randFacts(){
     let body = document.getElementById("body");
     let button = document.getElementById("button");
     let quote = document.getElementById("quote");
+    let CN = document.getElementById("CN");
+    CN.style.color = color;
     body.style.backgroundColor = color;
     button.style.backgroundColor = color;
     quote.style.color = color;
