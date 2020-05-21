@@ -1,3 +1,4 @@
+"use strict";
 let norrisFacts = [
     "Chuck Norris a déjà compté jusqu'à l'infini. Deux fois.",
     "Google, c'est le seul endroit où tu peux taper Chuck Norris..",
